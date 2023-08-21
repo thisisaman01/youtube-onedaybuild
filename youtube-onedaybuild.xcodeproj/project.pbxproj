@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9938128A2A8F658D00C08476 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993812892A8F658D00C08476 /* Response.swift */; };
 		993892DD2A87FAE400CAB689 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993892DC2A87FAE400CAB689 /* Video.swift */; };
 		993892DF2A87FB8900CAB689 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993892DE2A87FB8900CAB689 /* Model.swift */; };
 		993BBAB12A86ADBF00135A2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993BBAB02A86ADBF00135A2B /* AppDelegate.swift */; };
@@ -15,10 +16,11 @@
 		993BBAB82A86ADBF00135A2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993BBAB62A86ADBF00135A2B /* Main.storyboard */; };
 		993BBABA2A86ADC300135A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993BBAB92A86ADC300135A2B /* Assets.xcassets */; };
 		993BBABD2A86ADC300135A2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993BBABB2A86ADC300135A2B /* LaunchScreen.storyboard */; };
-		99A761A72A87EF190011D08F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A761A62A87EF190011D08F /* Constants.swift */; };
+		9943C0BE2A8A436B009EAE9F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943C0BD2A8A436B009EAE9F /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		993812892A8F658D00C08476 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		993892DC2A87FAE400CAB689 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		993892DE2A87FB8900CAB689 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		993BBAAD2A86ADBF00135A2B /* youtube-onedaybuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-onedaybuild.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,7 +31,7 @@
 		993BBAB92A86ADC300135A2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		993BBABC2A86ADC300135A2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		993BBABE2A86ADC300135A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99A761A62A87EF190011D08F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9943C0BD2A8A436B009EAE9F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				993BBAB02A86ADBF00135A2B /* AppDelegate.swift */,
-				99A761A62A87EF190011D08F /* Constants.swift */,
 				993BBAB22A86ADBF00135A2B /* SceneDelegate.swift */,
 				993BBAB42A86ADBF00135A2B /* ViewController.swift */,
 				993BBAB62A86ADBF00135A2B /* Main.storyboard */,
@@ -72,6 +73,8 @@
 				993BBABE2A86ADC300135A2B /* Info.plist */,
 				993892DC2A87FAE400CAB689 /* Video.swift */,
 				993892DE2A87FB8900CAB689 /* Model.swift */,
+				9943C0BD2A8A436B009EAE9F /* Constants.swift */,
+				993812892A8F658D00C08476 /* Response.swift */,
 			);
 			path = "youtube-onedaybuild";
 			sourceTree = "<group>";
@@ -147,11 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9938128A2A8F658D00C08476 /* Response.swift in Sources */,
+				9943C0BE2A8A436B009EAE9F /* Constants.swift in Sources */,
 				993BBAB52A86ADBF00135A2B /* ViewController.swift in Sources */,
 				993BBAB12A86ADBF00135A2B /* AppDelegate.swift in Sources */,
 				993BBAB32A86ADBF00135A2B /* SceneDelegate.swift in Sources */,
 				993892DF2A87FB8900CAB689 /* Model.swift in Sources */,
-				99A761A72A87EF190011D08F /* Constants.swift in Sources */,
 				993892DD2A87FAE400CAB689 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
