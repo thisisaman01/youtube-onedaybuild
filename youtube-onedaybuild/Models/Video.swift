@@ -12,7 +12,7 @@ struct Video: Decodable {
     var title = ""
     var description = ""
     var thumbnail = ""
-    var published = ""
+    var published = Date()
 
     enum CodingKeys: String, CodingKey {
         case snippet
@@ -24,7 +24,7 @@ struct Video: Decodable {
         case title
         case description
         case thumbnail = "url"
-        case videoId = "VideoId"
+        case videoId 
     }
 
     init(from decoder: Decoder) throws {
@@ -33,7 +33,7 @@ struct Video: Decodable {
 
         self.title = try snippetContainer.decode(String.self, forKey: .title)
         self.description = try snippetContainer.decode(String.self, forKey: .description)
-        self.published = try snippetContainer.decode(String.self, forKey: .published)
+        self.published = try snippetContainer.decode(Date.self, forKey: .published)
 
         let thumbnailContainer = try snippetContainer.nestedContainer(keyedBy: CodingKeys.self, forKey: .thumbnails)
         let highContainer = try thumbnailContainer.nestedContainer(keyedBy: CodingKeys.self, forKey: .high)
